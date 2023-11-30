@@ -1,0 +1,2 @@
+# TotkModLauncher
+stub
