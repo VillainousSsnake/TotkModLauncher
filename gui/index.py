@@ -10,3 +10,18 @@ class Index:
     @staticmethod
     def main_menu(self):
         main_menu(self)
+    
+    # Settings Menu
+    @staticmethod
+    def settings_menu(self):
+        pass  # TODO: Stub
+
+    # Manage Menu
+    @staticmethod
+    def manage_menu(self):
+        pass  # TODO: Stub
+
+    # Download Menu
+    @staticmethod
+    def download_menu(self):
+        pass  # TODO: Stub
