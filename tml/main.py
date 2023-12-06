@@ -1,4 +1,4 @@
-# TotkModLauncher/bin/main.py
+# TotkModLauncher/tml/main.py
 # Contains main program
 
 # Importing Modules and Packages

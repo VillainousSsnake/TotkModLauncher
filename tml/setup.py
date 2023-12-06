@@ -1,4 +1,4 @@
-# TotkModLauncher/bin/setup.py
+# TotkModLauncher/tml/setup.py
 # Currently installs pip dependencies
 
 import subprocess
