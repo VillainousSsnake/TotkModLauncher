@@ -1,7 +1,3 @@
-"""
-INSTALLER VERSION: v1.0
-INSTALLS 0x1de-NX VERSION: v0.0.1
-"""
 # TotkModLauncher/bin/setup.py
 # Currently installs pip dependencies
 
