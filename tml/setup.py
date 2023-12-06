@@ -12,7 +12,7 @@ def install(package):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 
 
-for pk in ["SarcLib", "sarc", "zstandard", "rstb"]:
+for pk in ["sarc", "zstandard", "rstb"]:
     install(pk)
 
 
