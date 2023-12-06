@@ -3,6 +3,8 @@
 
 # Importing screens and gui's
 from gui.main_menu import main_menu
+from gui.settings_menu import settings_menu
+
 
 # Index class
 class Index:
@@ -14,7 +16,7 @@ class Index:
     # Settings Menu
     @staticmethod
     def settings_menu(self):
-        pass  # TODO: Stub
+        settings_menu(self)
 
     # Manage Menu
     @staticmethod
