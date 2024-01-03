@@ -3,6 +3,7 @@
 
 # Importing Modules and Packages
 from lib.app import App
+from gui.index import Index
 
 # Creating App
 app = App()
@@ -12,7 +13,7 @@ while app.returnStatement != "QUIT":
     # Checking returnStatement and running
     #  the corresponding screen
     if app.returnStatement == "-MAIN-":
-        pass  # TODO: Stub
+        Index.main_menu(app)
     if app.returnStatement == "LAUNCH-MODS":
         pass  # TODO: Stub
     if app.returnStatement == "MANAGE":
