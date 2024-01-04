@@ -1,0 +1,2 @@
+romfs:None;
+window_bg_color:#131642;
