@@ -4,7 +4,6 @@
 # Importing dependencies
 import tkinter as tk
 import ctypes as ct
-import os
 
 
 # Defining main_menu
