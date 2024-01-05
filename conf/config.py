@@ -12,7 +12,7 @@ class Config:
         """get_conf(entry) - returns the value of the inputted entry."""
 
         # Reading and storing the contents of tml_config.txt into conf_lines
-        with open(os.path.join(os.getcwd(), "tml_config.txt"), "r") as conf_file:
+        with open(os.path.join(os.getcwd(), "conf", "tml_config.txt"), "r") as conf_file:
             conf_lines = conf_file.readlines()
 
         # Creating variables
@@ -62,5 +62,5 @@ class Config:
             # Creating new entry with item and value
             conf_dict[str(currentEntry)] = currentValue
 
-        return conf_dict[str(entry)]
+        return conf_dict[entry]
 
