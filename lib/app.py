@@ -6,4 +6,5 @@ class App:
     # __init__ method
     def __init__(self):
         self.returnStatement = "-MAIN-"
+        self.romfsLocation = None
         self.scr = None
