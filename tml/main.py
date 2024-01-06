@@ -19,6 +19,6 @@ while app.returnStatement != "QUIT":
     if app.returnStatement == "MANAGE":
         pass  # TODO: Stub
     if app.returnStatement == "SETTINGS":
-        pass  # TODO: Stub
+        Index.settings_menu(app)
     if app.returnStatement == "DOWNLOAD":
         pass  # TODO: Stub
