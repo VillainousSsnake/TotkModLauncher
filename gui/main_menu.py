@@ -14,7 +14,7 @@ def main_menu(self):
     root = tk.Tk()
     root.title("TotkModLauncher - Main Menu")
     root.geometry("500x500+200+200")
-    root.configure(bg=Config.get_conf("window_bg_color"))
+    root.configure(bg="#131642")
     root.resizable(False, True)
 
     # Making the title bar dark mode
