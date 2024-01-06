@@ -42,7 +42,7 @@ def main_menu(self):
     # Defining settings_button_command function
     def settings_button_command():
         root.destroy()
-        self.returnStatement = "MANAGE"
+        self.returnStatement = "SETTINGS"
 
     # Creating, initializing, and displaying Buttons
     # Setting up the launchButton
