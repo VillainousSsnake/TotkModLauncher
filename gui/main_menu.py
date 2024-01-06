@@ -4,7 +4,6 @@
 # Importing dependencies
 import tkinter as tk
 import ctypes as ct
-from conf.config import Config
 
 
 # Defining main_menu
